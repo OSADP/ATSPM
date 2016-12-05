@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repositories>
+  <repository path="..\Caseiro.Mvc.PagedList-master\Caseiro.Mvc.PagedList-master\src\Caseiro.Mvc.PagedList\packages.config" />
+  <repository path="..\ConverterConsole\packages.config" />
+  <repository path="..\DecodeSiemensLogs\packages.config" />
+  <repository path="..\DecodeTrafficwareLogs\packages.config" />
+  <repository path="..\FTPfromasc3\packages.config" />
+  <repository path="..\GenerateAddDataScript\packages.config" />
+  <repository path="..\GetMaxTimeRecords\packages.config" />
+  <repository path="..\MOE.Common\packages.config" />
+  <repository path="..\MOEWcfServiceLibrary\packages.config" />
+  <repository path="..\NEWDecodeandImportASC3Logs\packages.config" />
+  <repository path="..\SPM\packages.config" />
+  <repository path="..\SPMUserAndRoleManagement\packages.config" />
+  <repository path="..\SPMWatchDogNew\packages.config" />
+  <repository path="..\WavetronicsSpeedListener\packages.config" />
+</repositories>
