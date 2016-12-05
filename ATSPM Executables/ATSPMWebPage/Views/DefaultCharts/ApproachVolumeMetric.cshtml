@@ -1,0 +1,16 @@
+﻿@model IEnumerable <MOE.Common.Business.ApproachVolume.MetricInfo>
+
+@foreach (MOE.Common.Business.ApproachVolume.MetricInfo mi in Model)
+{
+    <img src="@mi.ImageLocation" alt="PCD Chart" />
+    <table>
+        <tr>
+            <th>Metric</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Total Volume</td>
+            <td>@mi.TotalVolume</td>
+        </tr>
+    </table>
+}
