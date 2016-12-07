@@ -10,7 +10,7 @@ function openWindow(url) {
 
 function GetMap() 
 {
-    map = new Microsoft.Maps.Map(document.getElementById('mapDiv'), { credentials: 'ArDqSVBgLAcobelrUlW6yVPIyL-UGPwVKTE0ce2_tAxvrZr5YFnSEFds7I1CNy5O',
+    map = new Microsoft.Maps.Map(document.getElementById('mapDiv'), { credentials: 'CHANGEME',
         center: new Microsoft.Maps.Location(39.50, -111.00),
         mapTypeId: Microsoft.Maps.MapTypeId.road,
         showDashboard: true,
@@ -62,7 +62,7 @@ function CenterMap(region) {
 }
 
 function GetMapWithCenter(lat, long, zoom) {
-    map = new Microsoft.Maps.Map(document.getElementById('mapDiv'), { credentials: 'ArDqSVBgLAcobelrUlW6yVPIyL-UGPwVKTE0ce2_tAxvrZr5YFnSEFds7I1CNy5O',
+    map = new Microsoft.Maps.Map(document.getElementById('mapDiv'), { credentials: 'CHANGEME',
         center: new Microsoft.Maps.Location(lat, long),
         mapTypeId: Microsoft.Maps.MapTypeId.road,
         showDashboard: false,
