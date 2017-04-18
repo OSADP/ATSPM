@@ -1,0 +1,50 @@
+﻿
+@model  SPM.Models.SPMConfigurationTableViewModel
+<table border="1" cellspacing="15" cellpadding="4">
+ 
+    <tr>
+        <td align="center"><b>Detector ID</b></td>
+        <td align="center"><b>Det. Channel</b></td>
+        <td align="center"><b>Phase</b></td>
+        <td align="center"><b>Perm. Phase</b></td>
+        <td align="center"><b>Overlap</b></td>
+        <td align="center"><b>Direction</b></td>
+        <td align="center"><b>Enabled</b></td>
+        <td align="left"><b>Detection Types</b></td>
+        <td align="center"><b>Movement Type</b></td>
+        <td align="center"><b>Lane Number</b></td>
+        <td align="center"><b>Lane Type</b></td>
+        <td align="center"><b>MPH</b></td>
+        <td align="center"><b>Dist. From StopBar</b></td>
+        <td align="center"><b>Decision Point</b></td>
+        <td align="center"><b>Move. Delay</b></td>
+        <td align="center"><b>Min Speed Filter</b></td>
+        <td align="center"><b>Comment</b></td>
+    </tr>
+        
+            @foreach (var record in Model.Records)
+            {
+            <tr>
+                <td align="center">@record.DetectorID</td>
+                <td align="center">@record.DetectorChannel</td>
+                <td align="center">@record.ProtectedPhaseNumber</td>
+                <td align="center">@record.PermissivePhaseNumber</td>
+                <td align="center">@record.Overlap</td>
+                <td align="center">@record.Direction</td>
+                <td align="center">@record.Enabled</td>
+                <td align="left">@Html.Raw(record.DetectionTypes)</td>
+                <td align="center">@record.MovementType</td>
+                <td align="center">@record.LaneNumber</td>
+                <td align="center">@record.LaneType</td>
+                <td align="center">@record.MPH</td>
+                <td align="center">@record.DistanceFromStopBar</td>
+                <td align="center">@record.DecisionPoint</td>
+                <td align="center">@record.MovementDelay</td>
+                <td align="center">@record.MinSpeedFilter</td>
+                <td align="left">@record.Comment</td>
+</tr>
+            }
+            
+            
+    
+</table>
