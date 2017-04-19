@@ -1,10 +1,36 @@
 Application Name:
 Automated Traffic Signal Performance Measures (ATSPM)
 
+Version Number:
+V4.0.1
+
+Enhancements 
+•	Improved Preemption Details chart
+•	Changed Watchdog alerts to run on weekdays only
+•	Created Watchdog Configuration page
+•	Added Unknown termination type to Phase Termination Chart
+•	Modified Purdue Split Failure and Yellow and Red Actuations charts to define unique charts by approach and to have a separate chart for permissive and protected phases. 
+•	Added a data table to the Turning Movement Counts metric
+•	Created a Signal Configuration Report (http://udottraffic.utah.gov/ATSPM/Signals/SignalDetail)
+•	Standardized chart headers
+•	Added detection type and distance from stop bar to Approach Volume header
+•	Created editor for FAQ page
+•	Changed line weights for Purdue Coordination Diagram large dot size
+•	Chart axes intervals will change based on range
+•	Created a User Configuration page in the Admin -> Security menu
+•	Added Technician user role for read-only access to the Signal Configuration page
+
+Fixed Bugs
+•	Purdue Coordination Diagram will now show multiple detectors per approach
+•	Purdue Phase Termination no longer shows two pedestrian activations per event
+•	Today's date now autofills on page load
+•	Total Volume is now populated in Approach Volume data table
+•	Able to add first approach to a route in Route Configuration 
+
 
 Version Number:
 V4.0
-�	Initial release of ATSPM.
+•	Initial release of ATSPM.
 
 
 Description:
@@ -36,19 +62,19 @@ License information
 See the accompanying LICENSE.txt file.
 
 System Requirements
-�	 Windows Server 2008 or newer installed
-�	.NET 4.5.2 Framework installed:
-�	 In Server 2012, this is installed using Add Features under Server Manager. 
+•	 Windows Server 2008 or newer installed
+•	.NET 4.5.2 Framework installed:
+•	 In Server 2012, this is installed using Add Features under Server Manager. 
 o	 When adding the .NET framework, ensure that HTTP Activation and TCP Port Sharing are installed with it.
 o	 In Server 2008, .NET 4.5.2 is a separate install.
-�	IIS 7 or better installed, along with ASP.NET 4.0 or later
+•	IIS 7 or better installed, along with ASP.NET 4.0 or later
 o	 In Windows Server, IIS is installed using Add Roles (Server 2008 or later).
 o	 When adding the IIS role, ensure ASP.NET 4.0 or later is included. In Server 2008 or later, this is found under Web Server (IIS) > Web Server > Application Development when adding IIS.
-�	Firewall exceptions for connections to the controllers 
-�	SQL Server Express, SQL Server 2008 R2, or newer installed
-�	If Watchdog features are desired, installation requires access to an SMTP (email) server. It will accept email from the automated traffic signal performance measures (ATSPM) server. The SMTP server can reside on the same machine.
-�	Microsoft Visual Studio 2013 or later is recommended.
-�	
+•	Firewall exceptions for connections to the controllers 
+•	SQL Server Express, SQL Server 2008 R2, or newer installed
+•	If Watchdog features are desired, installation requires access to an SMTP (email) server. It will accept email from the automated traffic signal performance measures (ATSPM) server. The SMTP server can reside on the same machine.
+•	Microsoft Visual Studio 2013 or later is recommended.
+•	
 Documentation
 Documentation will be forthcoming provided by GDOT.
 
