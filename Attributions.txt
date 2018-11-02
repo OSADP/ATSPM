@@ -1,6 +1,7 @@
 Attributions
-•	Automated Traffic Signals Performance Measures by Utah Department of Transportation  Licensed under Apache 2.0
+•	Automated Traffic Signals Performance Measures by Utah Department of Transportation and contributors Licensed under Apache 2.0
 •	Caseiro.Mvc.PagedList by sandrocaseiro Licensed under the MIT License.
 •	MVCCheckBoxList by Mikhail Tsennykh Licensed under The Code Project Open License (CPOL) 1.02
 •	#SNMP Library by Malcolm Crow, Lex Li and other Contributors Licensed under the MIT License
 •	AlexFTPS by Alessandro Pilotti Licensed under GNU Lesser General Public License
+•	FluentFTP by Robin Rodricks, J.P. Trosclair, FluentFTP Contributor MIT License

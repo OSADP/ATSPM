@@ -1,5 +1,73 @@
-Application Name:
+﻿Application Name:
 Automated Traffic Signal Performance Measures (ATSPM)
+
+Version Number:
+V4.2
+Signal Configuration
+	Enhancements
+	●	Signal Versions
+	●	Latency Correction
+	●	Allow overlaps for permissive and protected phases
+	Bug Fixes
+	●	Single digit detector channels save as 5 digit detector ID
+	●	Overlap won’t save on first save
+	●	Speed disappears after save unless Approach Speed is selected
+
+Route Configuration
+	Enhancements
+	●	Universal route setup
+	Bug Fixes
+	●	Unable to Create new routes through the interface
+
+Aggregation Reporting
+	Enhancements
+	●	Data aggregation Process
+	●	Data Aggregation Charts
+	●	Export chart data
+
+Data Archive for Partitions
+	Enhancements
+	●	Turn on or off through user interface
+	●	Specify the number of months to keep
+	●	Data is exported not deleted
+
+Signal Charts
+	Enhancements
+	●	Select button for mobile devices
+	●	Clustered Map Pins
+	●	Run charts by URL
+	●	Approach Speed 15th percentile line
+	●	Purdue Split Failure for overlaps
+	●	Turning Movement Counts Plot with start of interval, not end
+	Bug Fixes
+	●	Approach Delay Incorporate code to ignore stop bar sensors, use only Approach Count
+	●	Posted speed doesn't show if you untoggle Show Plans
+	●	Approach Volume Data Table - Peak volume is 4 times too big
+	●	Approach volume doesn't match TMC volumes
+	●	Arrivals on Red Incorporate code to ignore stop bar sensors, use only Approach Count
+	●	Ped Delay Fix which Code 45 is used in calculation
+	●	Purdue Split Failure Split Failure only looks back 30 minutes for Detector 
+	●	Turning Movement Counts Data Table displaying incorrect time
+	●	Turning Movement Counts ignores duplicate movement-lane configurations
+
+Purdue Link Pivot
+	Bug Fixes
+	●	Link Pivot PCDs use random phases
+
+Administrative
+	Enhancements
+	●	Configuration Role
+	●	Data Role
+
+About Page
+	Enhancements
+	●	Contributors Section
+
+Data Export
+	Enhancements
+	●	Ability to set maximum number of rows to allow users to export
+	●	Ability to specify specific event types and event parameters
+
 
 Version Number:
 V4.0.1
